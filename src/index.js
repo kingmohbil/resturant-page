@@ -2,6 +2,7 @@ import {homeLayout} from './homeLayout'
 import {createHeader} from './header'
 import {createFooter } from './footer'
 import {createMenu} from './menu'
+import {createConatct} from './contact'
 createHeader()
 createFooter()
 const container = document.getElementById('container')
@@ -20,5 +21,5 @@ MenuBtn.addEventListener('click', () =>{
 
 contactBtn.addEventListener('click', () =>{
     container.innerHTML = ''
-
+    createConatct(container)
 })

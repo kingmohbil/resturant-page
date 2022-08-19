@@ -159,3 +159,39 @@ body{
     font-style:italic;
 }
 
+.contactContainer{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.phoneContainer{
+    display: flex;
+
+}
+.phoneIcon{
+    display: flex;
+    max-height: 5vh;
+    max-width: 5vw;
+    justify-content:center;
+}
+
+.icon{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.phoneNumber{
+display: flex;
+align-items: center;
+font-size:24px;
+color: #E7E8EB;
+}
+
+.Email{
+    font-size:24px;
+    color: #E7E8EB;
+    padding: 12px;
+}

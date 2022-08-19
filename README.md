@@ -16,3 +16,5 @@ Photo by Stephan Müller: https://www.pexels.com/photo/clear-drinking-glass-fill
 Photo by Hasan Albari: https://www.pexels.com/photo/close-up-photo-of-steaming-black-tea-in-glass-1493080/
 Photo by Jonathan Borba: https://www.pexels.com/photo/coca-cola-glass-bottle-macro-photography-2983100/
 Photo by Engin Akyurt: https://www.pexels.com/photo/three-assorted-color-of-cream-in-containers-on-brown-wooden-slab-1435901/
+<a href="https://www.flaticon.com/free-icons/phone" title="phone icons">Phone icons created by Uniconlabs - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/restaurant" title="restaurant icons">Restaurant icons created by Freepik - Flaticon</a>
