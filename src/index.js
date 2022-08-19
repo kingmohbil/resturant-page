@@ -1,17 +1,24 @@
 import {homeLayout} from './homeLayout' 
 import {createHeader} from './header'
-import { createFooter } from './footer';
+import {createFooter } from './footer'
+import {createMenu} from './menu'
 createHeader()
 createFooter()
 const container = document.getElementById('container')
 const HomeBtn = document.getElementById('Home')
+const MenuBtn = document.getElementById('Menu')
+const contactBtn = document.getElementById('Contact')
 homeLayout(container)
 HomeBtn.addEventListener('click', () =>{
     container.innerHTML = ''
     homeLayout(container)
 })
-document.getElementById('Menu').onclick = () =>{
+MenuBtn.addEventListener('click', () =>{
     container.innerHTML = ''
-    
-}
+    createMenu(container)
+})
 
+contactBtn.addEventListener('click', () =>{
+    container.innerHTML = ''
+
+})

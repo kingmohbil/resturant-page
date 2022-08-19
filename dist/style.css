@@ -64,7 +64,6 @@ body{
 
 }
 
-
 .homeContent{
     display: flex;
     flex-direction: column;
@@ -86,13 +85,77 @@ body{
     max-height: 40vh;
     gap:1vw;
 }
-#firstChef{
+#firstChef, 
+.homeImages{
     max-height:100%;
     height: 100%;
 }
-.homeImages{
-    max-height: 100%;
-    height: 100%;
 
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.menuTitle{
+    align-self: center;
+    padding-top: 2vh;
+    font-size: 34px;
+    color: #E7E8EB;
+}
+
+.menuItem{
+    display: flex;
+    justify-content:space-around;
+}
+
+.menuImg{
+    max-width: 10vw;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+
+.name, 
+.price{
+    display: flex;
+    align-items: center;
+    padding: 0px 12px 0px 24px;
+    
+}
+
+.name{
+    display: block;
+    font-size: 24px;
+    color: #E7E8EB;
+}
+
+.price{
+    padding-top:0.5vh;
+    align-self: flex-start;
+    font-size: 20px;
+    color: #E7E8EB;
+    font-style: italic;
+}
+
+.desc{
+    font-size:14px;
+    max-width: 10vw;
+    font-style: italic;
+    color: #e7e8ebdd;
+}
+#Coke:last-child,
+#Coke:nth-child(2){
+    margin-right: 4vw;
+}
+
+.mainDishes,
+.desert, 
+.sides{
+    align-self: flex-start;
+    padding-left: 5vw;
+    font-size:20px;
+    color: #E7E8EB;
+    font-style:italic;
 }
 
