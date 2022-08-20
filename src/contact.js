@@ -12,7 +12,7 @@ export function createConatct(container){
     email.classList.add('Email')
     
     
-    phoneIcon.innerHTML = '<img class ="icon" src="../dist/pics/call.png">'
+    phoneIcon.innerHTML = '<img class ="icon" src="pics/call.png">'
     phoneNumber.textContent = '123-456-789'
     email.textContent = 'Email: totallyReal@gmail.com'
     container.appendChild(contactConatiner)
