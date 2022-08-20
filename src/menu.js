@@ -17,29 +17,29 @@ export function createMenu(container){
     container.appendChild(menu)
     menu.appendChild(menuTitle)
     menu.appendChild(mainDishes)
-    createMenuItem(menu, 'Chicken Burger', '../src/chickenBurger.jpg', '$5',
+    createMenuItem(menu, 'Chicken Burger', 'pics/chickenBurger.jpg', '$5',
      'A 180gm of chicken between two buns and honey mustard sauce ')
-    createMenuItem(menu, 'Beef Burger', '../src/beefBurger.jpg', '$7', 
+    createMenuItem(menu, 'Beef Burger', 'pics/beefBurger.jpg', '$7', 
     'A 200gm of beef between two buns and BBQ sauce ')
-    createMenuItem(menu, 'Pizza', '../src/classicPizza.jpg', '$8', 
+    createMenuItem(menu, 'Pizza', 'pics/classicPizza.jpg', '$8', 
     'A well baked classic pizza with a lot of cheese')
-    createMenuItem(menu, 'Mushroom Burger', '../src/mushroomBurger.jpg', '$7', 
+    createMenuItem(menu, 'Mushroom Burger', 'pics//mushroomBurger.jpg', '$7', 
     'A 200gm of beef between two buns and Mushrrom sauce ')
     menu.appendChild(desert)
-    createMenuItem(menu, 'Cheese Cake', '../src/cheeseCake.jpg', '$4', 
+    createMenuItem(menu, 'Cheese Cake', 'pics/cheeseCake.jpg', '$4', 
     'A light sweet chase cake with a cherry topping')
-    createMenuItem(menu, 'Cookies', '../src/cookies.jpg', '$3', 
+    createMenuItem(menu, 'Cookies', 'pics/cookies.jpg', '$3', 
     'A sweet baked classic cookies with choclate topping')
     menu.appendChild(sides)
-    createMenuItem(menu, 'Water', '../src/water.jpg', '$1', 
+    createMenuItem(menu, 'Water', 'pics/water.jpg', '$1', 
     'A 250ml of pure water')
-    createMenuItem(menu, 'Coke', '../src/coke.jpg', '$1', 
+    createMenuItem(menu, 'Coke', 'pics/coke.jpg', '$1', 
     'A 250ml of coke', 'Coke')
-    createMenuItem(menu, 'Tea', '../src/tea.jpg', '$2', 
+    createMenuItem(menu, 'Tea', 'pics/tea.jpg', '$2', 
     'A hot cup of tea')
-    createMenuItem(menu, 'Sauces', '../src/sauces.jpg', '$1', 
+    createMenuItem(menu, 'Sauces', 'pics/sauces.jpg', '$1', 
     'Sauces')
-    createMenuItem(menu, 'Fries', '../src/fries.jpg', '$1', 
+    createMenuItem(menu, 'Fries', 'pics/fries.jpg', '$1', 
     'A golden french fries')
 } 
 

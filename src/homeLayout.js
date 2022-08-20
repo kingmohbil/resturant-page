@@ -15,9 +15,9 @@ export function homeLayout(container) {
     createText(home, TEXT1)
     createText(home, TEXT2)
     home.appendChild(imgContainer)
-    createImageArea(imgContainer,'../src/firstChef.jpg','firstChef',  'imgHolder', 'homeImages')
-    createImageArea(imgContainer,'../src/secondChef.jpg','secondChef','imgHolder', 'homeImages')
-    createImageArea(imgContainer,'../src/thirdChef.jpg','thirdChef'  , 'imgHolder', 'homeImages')
+    createImageArea(imgContainer,'pics/firstChef.jpg','firstChef',  'imgHolder', 'homeImages')
+    createImageArea(imgContainer,'pics/secondChef.jpg','secondChef','imgHolder', 'homeImages')
+    createImageArea(imgContainer,'pics/thirdChef.jpg','thirdChef'  , 'imgHolder', 'homeImages')
     createText(home,TEXT3)
     createText(home,TEXT4)
     }
